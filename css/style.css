@@ -1,11 +1,19 @@
 body,
-html{
+html {
     font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: #073161;
+}
+
 .btn.blue {
     background-color: #1b9bc2;
     color: #fff;
 }
+
 .btn {
     height: 45px;
     line-height: 45px;
@@ -17,4 +25,57 @@ html{
     display: inline-block;
     text-decoration: none;
     transition: all .5s;
+}
+
+.membership-include-container {
+    width: 1200px;
+    margin: 40px auto 0;
+    color: #fff;
+}
+
+.membership-include-container h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.membership-include-container .owl-dots{
+    position: relative;
+    top: -30px;
+    right: 55px;
+}
+
+.membership-include-container .owl-dots .owl-dot{
+    outline: none;
+}
+
+.membership-include .item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 60px;
+}
+
+.membership-include .item h3{
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.membership-include .item .right{
+    padding-bottom: 80px;
+}
+
+.membership-include .item .right .image{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.membership-include .item .right .image .user-photo{
+    border-radius: 100%;
+}
+.membership-include .item .right .image .text{
+    font-style: italic;
 }
