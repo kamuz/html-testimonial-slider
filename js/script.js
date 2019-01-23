@@ -16,6 +16,7 @@ jQuery(document).ready(function($) {
         animateOut: 'fadeOut',
         autoplay: true,
         autoplayTimeout: 3000,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        loop: true
     });
 });
